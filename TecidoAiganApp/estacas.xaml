@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TecidoAiganApp.MenuPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A020F0" Padding="20" VerticalOptions="CenterAndExpand" Spacing="20">
+            <Button Text="PRODUTOS" BackgroundColor="White" TextColor="Black" />
+            <Button Text="VENDEDORES" BackgroundColor="White" TextColor="Black" />
+            <Button Text="CLIENTES" BackgroundColor="White" TextColor="Black" />
+            <Button Text="ESTOQUE" BackgroundColor="White" TextColor="Black" />
+            <Button Text="VENDAS" BackgroundColor="White" TextColor="Black" />
+            <Button Text="VOLTAR" BackgroundColor="#FF6347" TextColor="Black" VerticalOptions="End" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

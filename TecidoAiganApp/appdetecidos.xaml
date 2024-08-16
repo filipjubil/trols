@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TecidoAiganApp.MainPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A020F0" Padding="20" VerticalOptions="CenterAndExpand">
+            <Image Source="logo.png" HorizontalOptions="Center" />
+            <Label Text="TECIDOS AIGAN" TextColor="White" FontSize="24" HorizontalOptions="Center" Margin="0,20,0,40"/>
+            <Entry Placeholder="USUARIO" BackgroundColor="#66CDAA" TextColor="Black" Margin="0,10"/>
+            <Entry Placeholder="SENHA" BackgroundColor="#66CDAA" TextColor="Black" IsPassword="True" Margin="0,10"/>
+            <Button Text="ENTRAR" BackgroundColor="#8B008B" TextColor="White" Margin="0,20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

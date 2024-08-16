@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TecidoAiganApp.ProdutosPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A020F0" Padding="20" Spacing="10" VerticalOptions="CenterAndExpand">
+            <Label Text="PRODUTOS" TextColor="Black" FontSize="24" HorizontalOptions="Center" />
+            
+            <Entry Placeholder="NOME DO PRODUTO" BackgroundColor="White" TextColor="Black" />
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Entry Placeholder="NUMERO/PESO" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+                <Entry Placeholder="MARCA" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+            </StackLayout>
+            
+            <Entry Placeholder="COR" BackgroundColor="White" TextColor="Black" />
+            
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Entry Placeholder="M/PRIMA" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+                <Entry Placeholder="CODIGO" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Entry Placeholder="PREÇO DE CUSTO" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+                <Entry Placeholder="VENDA" BackgroundColor="White" TextColor="Black" WidthRequest="150" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" Spacing="20" VerticalOptions="EndAndExpand">
+                <Button Text="CONFIRMAR" BackgroundColor="Green" TextColor="White" HorizontalOptions="FillAndExpand" />
+                <Button Text="CANCELAR" BackgroundColor="Red" TextColor="White" HorizontalOptions="FillAndExpand" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
