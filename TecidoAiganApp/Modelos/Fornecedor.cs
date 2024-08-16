@@ -1,21 +1,16 @@
-public class Fornecedor
-{              
-    string email;
-    int id;
+using LiteDB;
+
+namespace Modelos;
+
+public class Fornecedor : Registro
+{   
+  [BsonID]
+  public int Id { get; set; }
+  
+  public string Email { get; set; }
+    
     string passaword;
     string cpf;
-    public void Setemail(string email){
-
-    }
-      public void Setid(string email){
-        this.id=1000;
-      }
-       public string Getemail(string email){
-        return email;
-       } 
-      public void set Setemailstring(string email){
-        
-      }
 }
 
 
