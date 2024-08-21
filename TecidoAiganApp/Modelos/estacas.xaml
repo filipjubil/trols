@@ -1,0 +1,14 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SeuProjeto.MainPage">
+    <Grid BackgroundColor="Purple">
+        <StackLayout Margin="20">
+            <Button Text="Produtos" Clicked="Produtos_Clicked" />
+            <Button Text="Estoques" Clicked="Estoques_Clicked" />
+            <Button Text="Clientes" Clicked="Clientes_Clicked" />
+            <Button Text="Vendas" Clicked="Vendas_Clicked" />
+            <Button Text="Vendedores" Clicked="Vendedores_Clicked" />
+            <Button Text="Voltar" Clicked="Voltar_Clicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
